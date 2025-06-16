@@ -21,6 +21,10 @@ env:
     availability:
       - BUILD
       - RUNTIME
+  - variable: APP_VERSION
+    value: "1.0.1"
+    availability:
+      - BUILD
 
   # Grant access to secrets in Cloud Secret Manager.
   # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
